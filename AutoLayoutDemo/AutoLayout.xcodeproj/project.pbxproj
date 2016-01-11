@@ -1,0 +1,643 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1A107DA11C3A525F005C05AC /* JWTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DA01C3A525F005C05AC /* JWTableViewController.m */; };
+		1A107DA41C3A538C005C05AC /* LoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DA31C3A538C005C05AC /* LoginViewController.m */; };
+		1A107DA71C3A5587005C05AC /* PhotoSpacingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DA61C3A5587005C05AC /* PhotoSpacingViewController.m */; };
+		1A107DAA1C3A55B8005C05AC /* AspectRatioViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DA91C3A55B8005C05AC /* AspectRatioViewController.m */; };
+		1A107DAD1C3A55E2005C05AC /* ScrollviewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DAC1C3A55E2005C05AC /* ScrollviewViewController.m */; };
+		1A107DB01C3A561C005C05AC /* CellViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DAF1C3A561C005C05AC /* CellViewController.m */; };
+		1A107DB21C3A6746005C05AC /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 1A107DB11C3A6746005C05AC /* 1.jpg */; };
+		1A107DB61C3A697C005C05AC /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A107DB41C3A697C005C05AC /* TableViewCell.m */; };
+		1A107DB71C3A697C005C05AC /* TableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1A107DB51C3A697C005C05AC /* TableViewCell.xib */; };
+		1AC4DBFF1C3A112500B82A63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4DBFE1C3A112500B82A63 /* main.m */; };
+		1AC4DC021C3A112500B82A63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4DC011C3A112500B82A63 /* AppDelegate.m */; };
+		1AC4DC081C3A112500B82A63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC4DC061C3A112500B82A63 /* Main.storyboard */; };
+		1AC4DC0A1C3A112500B82A63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1AC4DC091C3A112500B82A63 /* Assets.xcassets */; };
+		1AC4DC0D1C3A112500B82A63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1AC4DC0B1C3A112500B82A63 /* LaunchScreen.storyboard */; };
+		1AC4DC181C3A112500B82A63 /* ____Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4DC171C3A112500B82A63 /* ____Tests.m */; };
+		1AC4DC231C3A112500B82A63 /* ____UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AC4DC221C3A112500B82A63 /* ____UITests.m */; };
+		1AFA63DA1C3F9C26008FDC0F /* ALView+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA63D21C3F9C26008FDC0F /* ALView+PureLayout.m */; };
+		1AFA63DB1C3F9C26008FDC0F /* NSArray+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA63D41C3F9C26008FDC0F /* NSArray+PureLayout.m */; };
+		1AFA63DC1C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFA63D61C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1AC4DC141C3A112500B82A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC4DBF21C3A112500B82A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC4DBF91C3A112500B82A63;
+			remoteInfo = "登录注册";
+		};
+		1AC4DC1F1C3A112500B82A63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1AC4DBF21C3A112500B82A63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1AC4DBF91C3A112500B82A63;
+			remoteInfo = "登录注册";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1A107D9F1C3A525F005C05AC /* JWTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JWTableViewController.h; path = "登录注册/JWTableViewController.h"; sourceTree = "<group>"; };
+		1A107DA01C3A525F005C05AC /* JWTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JWTableViewController.m; path = "登录注册/JWTableViewController.m"; sourceTree = "<group>"; };
+		1A107DA21C3A538C005C05AC /* LoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginViewController.h; sourceTree = "<group>"; };
+		1A107DA31C3A538C005C05AC /* LoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginViewController.m; sourceTree = "<group>"; };
+		1A107DA51C3A5587005C05AC /* PhotoSpacingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = PhotoSpacingViewController.h; path = "登录注册/PhotoSpacingViewController.h"; sourceTree = "<group>"; };
+		1A107DA61C3A5587005C05AC /* PhotoSpacingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = PhotoSpacingViewController.m; path = "登录注册/PhotoSpacingViewController.m"; sourceTree = "<group>"; };
+		1A107DA81C3A55B8005C05AC /* AspectRatioViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AspectRatioViewController.h; path = "登录注册/AspectRatioViewController.h"; sourceTree = "<group>"; };
+		1A107DA91C3A55B8005C05AC /* AspectRatioViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AspectRatioViewController.m; path = "登录注册/AspectRatioViewController.m"; sourceTree = "<group>"; };
+		1A107DAB1C3A55E2005C05AC /* ScrollviewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ScrollviewViewController.h; path = "登录注册/ScrollviewViewController.h"; sourceTree = "<group>"; };
+		1A107DAC1C3A55E2005C05AC /* ScrollviewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ScrollviewViewController.m; path = "登录注册/ScrollviewViewController.m"; sourceTree = "<group>"; };
+		1A107DAE1C3A561C005C05AC /* CellViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = CellViewController.h; path = "登录注册/CellViewController.h"; sourceTree = "<group>"; };
+		1A107DAF1C3A561C005C05AC /* CellViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = CellViewController.m; path = "登录注册/CellViewController.m"; sourceTree = "<group>"; };
+		1A107DB11C3A6746005C05AC /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = 1.jpg; path = "登录注册/1.jpg"; sourceTree = "<group>"; };
+		1A107DB31C3A697C005C05AC /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TableViewCell.h; path = "登录注册/TableViewCell.h"; sourceTree = "<group>"; };
+		1A107DB41C3A697C005C05AC /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TableViewCell.m; path = "登录注册/TableViewCell.m"; sourceTree = "<group>"; };
+		1A107DB51C3A697C005C05AC /* TableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = TableViewCell.xib; path = "登录注册/TableViewCell.xib"; sourceTree = "<group>"; };
+		1AC4DBFA1C3A112500B82A63 /* AutoLayout.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AutoLayout.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC4DBFE1C3A112500B82A63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1AC4DC001C3A112500B82A63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = "登录注册/AppDelegate.h"; sourceTree = "<group>"; };
+		1AC4DC011C3A112500B82A63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = "登录注册/AppDelegate.m"; sourceTree = "<group>"; };
+		1AC4DC071C3A112500B82A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1AC4DC091C3A112500B82A63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Assets.xcassets; path = "登录注册/Assets.xcassets"; sourceTree = "<group>"; };
+		1AC4DC0C1C3A112500B82A63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1AC4DC0E1C3A112500B82A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = Info.plist; path = "登录注册/Info.plist"; sourceTree = "<group>"; };
+		1AC4DC131C3A112500B82A63 /* AutoLayout.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC4DC171C3A112500B82A63 /* ____Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____Tests.m"; sourceTree = "<group>"; };
+		1AC4DC191C3A112500B82A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AC4DC1E1C3A112500B82A63 /* AutoLayout.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AutoLayout.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1AC4DC221C3A112500B82A63 /* ____UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____UITests.m"; sourceTree = "<group>"; };
+		1AC4DC241C3A112500B82A63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1AFA63D11C3F9C26008FDC0F /* ALView+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ALView+PureLayout.h"; sourceTree = "<group>"; };
+		1AFA63D21C3F9C26008FDC0F /* ALView+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "ALView+PureLayout.m"; sourceTree = "<group>"; };
+		1AFA63D31C3F9C26008FDC0F /* NSArray+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+PureLayout.h"; sourceTree = "<group>"; };
+		1AFA63D41C3F9C26008FDC0F /* NSArray+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+PureLayout.m"; sourceTree = "<group>"; };
+		1AFA63D51C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSLayoutConstraint+PureLayout.h"; sourceTree = "<group>"; };
+		1AFA63D61C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSLayoutConstraint+PureLayout.m"; sourceTree = "<group>"; };
+		1AFA63D71C3F9C26008FDC0F /* PureLayout+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PureLayout+Internal.h"; sourceTree = "<group>"; };
+		1AFA63D81C3F9C26008FDC0F /* PureLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayout.h; sourceTree = "<group>"; };
+		1AFA63D91C3F9C26008FDC0F /* PureLayoutDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PureLayoutDefines.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1AC4DBF71C3A112500B82A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC101C3A112500B82A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC1B1C3A112500B82A63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AC4DBF11C3A112500B82A63 = {
+			isa = PBXGroup;
+			children = (
+				1AFA63E11C3F9F3A008FDC0F /* AppDelegate */,
+				1AFA63E01C3F9F16008FDC0F /* ScrollVIew布局 */,
+				1AFA63DF1C3F9EA1008FDC0F /* 设置图片与间距 */,
+				1AFA63DE1C3F9E91008FDC0F /* TableViewCell自适应 */,
+				1AFA63DD1C3F9E7A008FDC0F /* 等比例缩放 */,
+				1AC4DBFC1C3A112500B82A63 /* 登录注册 */,
+				1AC4DC161C3A112500B82A63 /* 登录注册Tests */,
+				1AC4DC211C3A112500B82A63 /* 登录注册UITests */,
+				1AC4DBFB1C3A112500B82A63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1AC4DBFB1C3A112500B82A63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4DBFA1C3A112500B82A63 /* AutoLayout.app */,
+				1AC4DC131C3A112500B82A63 /* AutoLayout.xctest */,
+				1AC4DC1E1C3A112500B82A63 /* AutoLayout.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1AC4DBFC1C3A112500B82A63 /* 登录注册 */ = {
+			isa = PBXGroup;
+			children = (
+				1A107DA21C3A538C005C05AC /* LoginViewController.h */,
+				1A107DA31C3A538C005C05AC /* LoginViewController.m */,
+				1AFA63D01C3F9C26008FDC0F /* PureLayout */,
+				1AC4DBFD1C3A112500B82A63 /* Supporting Files */,
+			);
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		1AC4DBFD1C3A112500B82A63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4DBFE1C3A112500B82A63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1AC4DC161C3A112500B82A63 /* 登录注册Tests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4DC171C3A112500B82A63 /* ____Tests.m */,
+				1AC4DC191C3A112500B82A63 /* Info.plist */,
+			);
+			path = "登录注册Tests";
+			sourceTree = "<group>";
+		};
+		1AC4DC211C3A112500B82A63 /* 登录注册UITests */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4DC221C3A112500B82A63 /* ____UITests.m */,
+				1AC4DC241C3A112500B82A63 /* Info.plist */,
+			);
+			path = "登录注册UITests";
+			sourceTree = "<group>";
+		};
+		1AFA63D01C3F9C26008FDC0F /* PureLayout */ = {
+			isa = PBXGroup;
+			children = (
+				1AFA63D11C3F9C26008FDC0F /* ALView+PureLayout.h */,
+				1AFA63D21C3F9C26008FDC0F /* ALView+PureLayout.m */,
+				1AFA63D31C3F9C26008FDC0F /* NSArray+PureLayout.h */,
+				1AFA63D41C3F9C26008FDC0F /* NSArray+PureLayout.m */,
+				1AFA63D51C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.h */,
+				1AFA63D61C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.m */,
+				1AFA63D71C3F9C26008FDC0F /* PureLayout+Internal.h */,
+				1AFA63D81C3F9C26008FDC0F /* PureLayout.h */,
+				1AFA63D91C3F9C26008FDC0F /* PureLayoutDefines.h */,
+			);
+			name = PureLayout;
+			path = ../PureLayout;
+			sourceTree = "<group>";
+		};
+		1AFA63DD1C3F9E7A008FDC0F /* 等比例缩放 */ = {
+			isa = PBXGroup;
+			children = (
+				1A107DA81C3A55B8005C05AC /* AspectRatioViewController.h */,
+				1A107DA91C3A55B8005C05AC /* AspectRatioViewController.m */,
+			);
+			name = "等比例缩放";
+			sourceTree = "<group>";
+		};
+		1AFA63DE1C3F9E91008FDC0F /* TableViewCell自适应 */ = {
+			isa = PBXGroup;
+			children = (
+				1A107DAE1C3A561C005C05AC /* CellViewController.h */,
+				1A107DAF1C3A561C005C05AC /* CellViewController.m */,
+				1A107DB41C3A697C005C05AC /* TableViewCell.m */,
+				1A107DB31C3A697C005C05AC /* TableViewCell.h */,
+				1A107DB51C3A697C005C05AC /* TableViewCell.xib */,
+			);
+			name = "TableViewCell自适应";
+			sourceTree = "<group>";
+		};
+		1AFA63DF1C3F9EA1008FDC0F /* 设置图片与间距 */ = {
+			isa = PBXGroup;
+			children = (
+				1A107DA51C3A5587005C05AC /* PhotoSpacingViewController.h */,
+				1A107DA61C3A5587005C05AC /* PhotoSpacingViewController.m */,
+			);
+			name = "设置图片与间距";
+			sourceTree = "<group>";
+		};
+		1AFA63E01C3F9F16008FDC0F /* ScrollVIew布局 */ = {
+			isa = PBXGroup;
+			children = (
+				1A107DAB1C3A55E2005C05AC /* ScrollviewViewController.h */,
+				1A107DAC1C3A55E2005C05AC /* ScrollviewViewController.m */,
+			);
+			name = "ScrollVIew布局";
+			sourceTree = "<group>";
+		};
+		1AFA63E11C3F9F3A008FDC0F /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				1AC4DC061C3A112500B82A63 /* Main.storyboard */,
+				1AC4DC001C3A112500B82A63 /* AppDelegate.h */,
+				1AC4DC011C3A112500B82A63 /* AppDelegate.m */,
+				1A107D9F1C3A525F005C05AC /* JWTableViewController.h */,
+				1A107DA01C3A525F005C05AC /* JWTableViewController.m */,
+				1A107DB11C3A6746005C05AC /* 1.jpg */,
+				1AC4DC091C3A112500B82A63 /* Assets.xcassets */,
+				1AC4DC0B1C3A112500B82A63 /* LaunchScreen.storyboard */,
+				1AC4DC0E1C3A112500B82A63 /* Info.plist */,
+			);
+			name = AppDelegate;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1AC4DBF91C3A112500B82A63 /* AutoLayout */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC4DC271C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayout" */;
+			buildPhases = (
+				1AC4DBF61C3A112500B82A63 /* Sources */,
+				1AC4DBF71C3A112500B82A63 /* Frameworks */,
+				1AC4DBF81C3A112500B82A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AutoLayout;
+			productName = "登录注册";
+			productReference = 1AC4DBFA1C3A112500B82A63 /* AutoLayout.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1AC4DC121C3A112500B82A63 /* AutoLayoutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC4DC2A1C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */;
+			buildPhases = (
+				1AC4DC0F1C3A112500B82A63 /* Sources */,
+				1AC4DC101C3A112500B82A63 /* Frameworks */,
+				1AC4DC111C3A112500B82A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC4DC151C3A112500B82A63 /* PBXTargetDependency */,
+			);
+			name = AutoLayoutTests;
+			productName = "登录注册Tests";
+			productReference = 1AC4DC131C3A112500B82A63 /* AutoLayout.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		1AC4DC1D1C3A112500B82A63 /* AutoLayoutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1AC4DC2D1C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayoutUITests" */;
+			buildPhases = (
+				1AC4DC1A1C3A112500B82A63 /* Sources */,
+				1AC4DC1B1C3A112500B82A63 /* Frameworks */,
+				1AC4DC1C1C3A112500B82A63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1AC4DC201C3A112500B82A63 /* PBXTargetDependency */,
+			);
+			name = AutoLayoutUITests;
+			productName = "登录注册UITests";
+			productReference = 1AC4DC1E1C3A112500B82A63 /* AutoLayout.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1AC4DBF21C3A112500B82A63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "陆俊伟";
+				TargetAttributes = {
+					1AC4DBF91C3A112500B82A63 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					1AC4DC121C3A112500B82A63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AC4DBF91C3A112500B82A63;
+					};
+					1AC4DC1D1C3A112500B82A63 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = 1AC4DBF91C3A112500B82A63;
+					};
+				};
+			};
+			buildConfigurationList = 1AC4DBF51C3A112500B82A63 /* Build configuration list for PBXProject "AutoLayout" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1AC4DBF11C3A112500B82A63;
+			productRefGroup = 1AC4DBFB1C3A112500B82A63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1AC4DBF91C3A112500B82A63 /* AutoLayout */,
+				1AC4DC121C3A112500B82A63 /* AutoLayoutTests */,
+				1AC4DC1D1C3A112500B82A63 /* AutoLayoutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1AC4DBF81C3A112500B82A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC4DC0D1C3A112500B82A63 /* LaunchScreen.storyboard in Resources */,
+				1A107DB71C3A697C005C05AC /* TableViewCell.xib in Resources */,
+				1A107DB21C3A6746005C05AC /* 1.jpg in Resources */,
+				1AC4DC0A1C3A112500B82A63 /* Assets.xcassets in Resources */,
+				1AC4DC081C3A112500B82A63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC111C3A112500B82A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC1C1C3A112500B82A63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1AC4DBF61C3A112500B82A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1A107DA41C3A538C005C05AC /* LoginViewController.m in Sources */,
+				1A107DA11C3A525F005C05AC /* JWTableViewController.m in Sources */,
+				1A107DAD1C3A55E2005C05AC /* ScrollviewViewController.m in Sources */,
+				1AFA63DA1C3F9C26008FDC0F /* ALView+PureLayout.m in Sources */,
+				1AC4DC021C3A112500B82A63 /* AppDelegate.m in Sources */,
+				1A107DB61C3A697C005C05AC /* TableViewCell.m in Sources */,
+				1AFA63DB1C3F9C26008FDC0F /* NSArray+PureLayout.m in Sources */,
+				1A107DA71C3A5587005C05AC /* PhotoSpacingViewController.m in Sources */,
+				1A107DAA1C3A55B8005C05AC /* AspectRatioViewController.m in Sources */,
+				1A107DB01C3A561C005C05AC /* CellViewController.m in Sources */,
+				1AC4DBFF1C3A112500B82A63 /* main.m in Sources */,
+				1AFA63DC1C3F9C26008FDC0F /* NSLayoutConstraint+PureLayout.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC0F1C3A112500B82A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC4DC181C3A112500B82A63 /* ____Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1AC4DC1A1C3A112500B82A63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1AC4DC231C3A112500B82A63 /* ____UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1AC4DC151C3A112500B82A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC4DBF91C3A112500B82A63 /* AutoLayout */;
+			targetProxy = 1AC4DC141C3A112500B82A63 /* PBXContainerItemProxy */;
+		};
+		1AC4DC201C3A112500B82A63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1AC4DBF91C3A112500B82A63 /* AutoLayout */;
+			targetProxy = 1AC4DC1F1C3A112500B82A63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1AC4DC061C3A112500B82A63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC4DC071C3A112500B82A63 /* Base */,
+			);
+			name = Main.storyboard;
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+		1AC4DC0B1C3A112500B82A63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1AC4DC0C1C3A112500B82A63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			path = "登录注册";
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1AC4DC251C3A112500B82A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1AC4DC261C3A112500B82A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1AC4DC281C3A112500B82A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登录注册/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----";
+				PRODUCT_NAME = AutoLayout;
+			};
+			name = Debug;
+		};
+		1AC4DC291C3A112500B82A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "登录注册/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----";
+				PRODUCT_NAME = AutoLayout;
+			};
+			name = Release;
+		};
+		1AC4DC2B1C3A112500B82A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登录注册Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----Tests";
+				PRODUCT_NAME = AutoLayout;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout.app/AutoLayout";
+			};
+			name = Debug;
+		};
+		1AC4DC2C1C3A112500B82A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "登录注册Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----Tests";
+				PRODUCT_NAME = AutoLayout;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AutoLayout.app/AutoLayout";
+			};
+			name = Release;
+		};
+		1AC4DC2E1C3A112500B82A63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登录注册UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----UITests";
+				PRODUCT_NAME = AutoLayout;
+				TEST_TARGET_NAME = "登录注册";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		1AC4DC2F1C3A112500B82A63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "登录注册UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "lujunwei.----UITests";
+				PRODUCT_NAME = AutoLayout;
+				TEST_TARGET_NAME = "登录注册";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1AC4DBF51C3A112500B82A63 /* Build configuration list for PBXProject "AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC4DC251C3A112500B82A63 /* Debug */,
+				1AC4DC261C3A112500B82A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC4DC271C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayout" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC4DC281C3A112500B82A63 /* Debug */,
+				1AC4DC291C3A112500B82A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC4DC2A1C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayoutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC4DC2B1C3A112500B82A63 /* Debug */,
+				1AC4DC2C1C3A112500B82A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1AC4DC2D1C3A112500B82A63 /* Build configuration list for PBXNativeTarget "AutoLayoutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1AC4DC2E1C3A112500B82A63 /* Debug */,
+				1AC4DC2F1C3A112500B82A63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1AC4DBF21C3A112500B82A63 /* Project object */;
+}
